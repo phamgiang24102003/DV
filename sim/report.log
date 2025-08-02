@@ -1,0 +1,26 @@
+# vsim -assertdebug -do {log -r /*; run -all;} -l report.log -debugDB -voptargs=+acc -c test 
+# //  Questa Sim-64
+# //  Version 10.2c Unknown Platform Jul 19 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.test(fast)
+# Loading work.apb_protocol(fast)
+# Loading work.master(fast)
+# Loading work.slave1(fast)
+# Loading work.slave2(fast)
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+# 
+# log -r /* 
+#  run -all 
+# ** Warning: (vsim-7) Failed to open readmem file "check.mem" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : ../tb/test.v(43)
+#    Time: 0 ns  Iteration: 0  Instance: /test
+# ** Note: $finish    : ../tb/test.v(64)
+#    Time: 1045 ns  Iteration: 1  Instance: /test

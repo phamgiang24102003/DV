@@ -1,0 +1,16 @@
+# //  Questa Sim-64
+# //  Version 10.2c Unknown Platform Jul 19 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -do {add wave vsim: /test/dut_c/*; radix -decimal} -i -view vsim.wlf 
+# vsim.wlf opened as dataset "vsim"
+# add wave vsim: /test/dut_c/* 
+# (vish-4014) No objects found matching 'vsim:'.
+#  radix -decimal 
+# decimal

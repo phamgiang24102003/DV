@@ -1,0 +1,110 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:/intelFPGA/tt
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+vapb_protocol
+Z1 I_@QMT:JCkNY^fkJ>C4I]E3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+Z3 dC:/intelFPGA/DV/rtl
+Z4 w1754100999
+Z5 8C:/intelFPGA/DV/rtl/apb_protocol.v
+Z6 FC:/intelFPGA/DV/rtl/apb_protocol.v
+L0 11
+Z7 OL;L;10.2c;57
+r1
+31
+Z8 !s90 -reportprogress|300|-work|work|-vopt|C:/intelFPGA/DV/rtl/apb_protocol.v|
+Z9 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z10 !s110 1754106825
+Z11 !s100 [zW^VLIVAaDjn6Pk1gz930
+Z12 !s108 1754106825.747000
+Z13 !s107 C:/intelFPGA/DV/rtl/apb_protocol.v|
+!i10b 1
+!s85 0
+!i111 0
+vmaster
+R10
+Z14 !s100 7CiKS:hOUf3dQH]9^FMb<3
+Z15 IT>J9z4Zj3ll0CdGOV>agK3
+R2
+R3
+Z16 w1754100064
+Z17 8C:/intelFPGA/DV/rtl/master.v
+Z18 FC:/intelFPGA/DV/rtl/master.v
+L0 11
+R7
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|-vopt|C:/intelFPGA/DV/rtl/master.v|
+R9
+Z20 !s108 1754106825.806000
+Z21 !s107 C:/intelFPGA/DV/rtl/master.v|
+!i10b 1
+!s85 0
+!i111 0
+vslave1
+R10
+Z22 !s100 W?ZB0bn`?U0]XGA2E6B7F2
+Z23 IVmLE^[ZXS1:[N6LhPUCgH1
+R2
+R3
+Z24 w1754100057
+Z25 8C:/intelFPGA/DV/rtl/slave1.v
+Z26 FC:/intelFPGA/DV/rtl/slave1.v
+L0 11
+R7
+r1
+31
+Z27 !s90 -reportprogress|300|-work|work|-vopt|C:/intelFPGA/DV/rtl/slave1.v|
+R9
+Z28 !s108 1754106825.853000
+Z29 !s107 C:/intelFPGA/DV/rtl/slave1.v|
+!i10b 1
+!s85 0
+!i111 0
+vslave2
+R10
+Z30 !s100 g5XCjKYOkzLF@g;>5VQ:j2
+Z31 I8VVA?LPL:^=B[n0Ji`IM10
+R2
+R3
+Z32 w1754100059
+Z33 8C:/intelFPGA/DV/rtl/slave2.v
+Z34 FC:/intelFPGA/DV/rtl/slave2.v
+L0 11
+R7
+r1
+31
+Z35 !s90 -reportprogress|300|-work|work|-vopt|C:/intelFPGA/DV/rtl/slave2.v|
+R9
+!i10b 1
+!s85 0
+Z36 !s108 1754106825.896000
+Z37 !s107 C:/intelFPGA/DV/rtl/slave2.v|
+!i111 0
+vtest
+R10
+!i10b 1
+Z38 !s100 hYVaOQzETW70JmZg`NUPf0
+Z39 IYD3S4_8CcK^X:PePb5Z^S0
+R2
+R3
+Z40 w1754100072
+Z41 8C:/intelFPGA/DV/rtl/test.v
+Z42 FC:/intelFPGA/DV/rtl/test.v
+L0 14
+R7
+r1
+!s85 0
+31
+!s108 1754106825.946000
+!s107 C:/intelFPGA/DV/rtl/test.v|
+Z43 !s90 -reportprogress|300|-work|work|-vopt|C:/intelFPGA/DV/rtl/test.v|
+!i111 0
+R9

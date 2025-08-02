@@ -1,0 +1,36 @@
+C:/intelFPGA/DV/rtl/slave2.v {1 {vlog -work work -vopt C:/intelFPGA/DV/rtl/slave2.v
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module slave2
+
+Top level modules:
+	slave2
+
+} {} {}} C:/intelFPGA/DV/rtl/apb_protocol.v {1 {vlog -work work -vopt C:/intelFPGA/DV/rtl/apb_protocol.v
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module apb_protocol
+
+Top level modules:
+	apb_protocol
+
+} {} {}} C:/intelFPGA/DV/rtl/test.v {1 {vlog -work work -vopt C:/intelFPGA/DV/rtl/test.v
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} C:/intelFPGA/DV/rtl/slave1.v {1 {vlog -work work -vopt C:/intelFPGA/DV/rtl/slave1.v
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module slave1
+
+Top level modules:
+	slave1
+
+} {} {}} C:/intelFPGA/DV/rtl/master.v {1 {vlog -work work -vopt C:/intelFPGA/DV/rtl/master.v
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module master
+
+Top level modules:
+	master
+
+} {} {}}

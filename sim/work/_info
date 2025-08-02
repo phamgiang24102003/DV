@@ -1,0 +1,132 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:/intelFPGA/DV/sim
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+V@n3=NhDG_[mG1Djhm8o6D1
+Z1 04 4 4 work test fast 0
+=1-50814085cfb3-688d7511-3ca-2b74
+o-quiet -auto_acc_if_foreign -work work -noduplicatemsg +acc
+n@_opt
+Z2 OL;O;10.2c;57
+Z3 dC:/intelFPGA/DV/sim
+!s110 1754101010
+T_opt1
+!s110 1754101363
+VEB400LA:Vom=:mn2W8KNE1
+R1
+=1-50814085cfb3-688d7673-2b8-4b50
+o-quiet -auto_acc_if_foreign -work work
+n@_opt1
+R2
+vapb_protocol
+Z4 !s110 1754101270
+!s100 [zW^VLIVAaDjn6Pk1gz930
+IhjPCK;TFIFeZ6NQSn85zI1
+Z5 V`JN@9S9cnhjKRR_L]QIcM3
+R3
+w1754100999
+8../rtl/apb_protocol.v
+F../rtl/apb_protocol.v
+L0 11
+Z6 OL;L;10.2c;57
+r1
+31
+Z7 !s108 1754101270.370000
+Z8 !s107 ../tb/test.v|../rtl/apb_protocol.v|../rtl/slave2.v|../rtl/slave1.v|../rtl/master.v|
+Z9 !s90 +incdir+../rtl|-f|compile.f|
+Z10 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z11 !s92 +incdir+../rtl -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s85 0
+!i111 0
+vmaster
+R4
+!s100 7CiKS:hOUf3dQH]9^FMb<3
+IFNQ0?ge=0^HicAcig_<ZC1
+R5
+R3
+w1754100064
+8../rtl/master.v
+F../rtl/master.v
+L0 11
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!i10b 1
+!s85 0
+!i111 0
+vslave1
+R4
+!s100 W?ZB0bn`?U0]XGA2E6B7F2
+I;OYEC41;oJddGa248OcGa1
+R5
+R3
+w1754100057
+8../rtl/slave1.v
+F../rtl/slave1.v
+L0 11
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!i10b 1
+!s85 0
+!i111 0
+vslave2
+R4
+!s100 g5XCjKYOkzLF@g;>5VQ:j2
+I_AllVkWilYPVzi1:hDg2g1
+R5
+R3
+w1754100059
+8../rtl/slave2.v
+F../rtl/slave2.v
+L0 11
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!i10b 1
+!s85 0
+!i111 0
+vtest
+R4
+!s100 PS]o1G^Y7^gA>F4cT9BmF1
+IKTUF1]=BJ``YW`eC^6Kg[0
+R5
+R3
+w1754100943
+8../tb/test.v
+F../tb/test.v
+L0 14
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!i10b 1
+!s85 0
+!i111 0
