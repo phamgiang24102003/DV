@@ -6,10 +6,7 @@
 //
 ///////////////////////////////////////////////
 
-
 `timescale 1ns/1ns
-
-
 
 module slave1(
          input PCLK,PRESETn,

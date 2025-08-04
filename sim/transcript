@@ -8,9 +8,8 @@
 # //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
 # //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
 # //
-# vsim -do {add wave vsim: /test/dut_c/*; radix -decimal} -i -view vsim.wlf 
+# vsim -do {add wave /dut_c/*; radix -decimal} -i -view vsim.wlf 
 # vsim.wlf opened as dataset "vsim"
-# add wave vsim: /test/dut_c/* 
-# (vish-4014) No objects found matching 'vsim:'.
+# add wave /dut_c/* 
 #  radix -decimal 
 # decimal

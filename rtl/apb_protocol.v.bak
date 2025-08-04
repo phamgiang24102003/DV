@@ -6,18 +6,7 @@
 //
 ///////////////////////////////////////////////
 
-
-
-
-`include "master.v"
-`include "slave1.v"
-`include "slave2.v"
-
-
-
 `timescale 1ns/1ns
-
-
 
 module apb_protocol(
                  input PCLK,PRESETn,transfer,READ_WRITE,
@@ -39,7 +28,7 @@ module apb_protocol(
         assign PRDATA = READ_WRITE ? (PADDR[8] ? PRDATA2 : PRDATA1) : 8'dx ;
        // assign PRDATA = READ_WRITE ? (apb_read_paddr[8] ? PRDATA2 : PRDATA1) : 16'dx;
 
-       master_bridge dut_mas(
+       master dut_mas(
 	             apb_write_paddr,
 		     apb_read_paddr,
 		     apb_write_data,

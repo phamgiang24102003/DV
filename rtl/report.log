@@ -1,0 +1,17 @@
+# vsim -l report.log -novopt work.test 
+# Refreshing C:/intelFPGA/DV/rtl/work.test
+# Loading work.test
+# Refreshing C:/intelFPGA/DV/rtl/work.apb_protocol
+# Loading work.apb_protocol
+# Refreshing C:/intelFPGA/DV/rtl/work.master
+# Loading work.master
+# Refreshing C:/intelFPGA/DV/rtl/work.slave1
+# Loading work.slave1
+# Refreshing C:/intelFPGA/DV/rtl/work.slave2
+# Loading work.slave2
+add wave -position insertpoint sim:/test/dut_c/*
+run -all
+# ** Note: $finish    : C:/intelFPGA/DV/rtl/test.v(55)
+#    Time: 1045 ns  Iteration: 1  Instance: /test
+# 1
+# Break in Module test at C:/intelFPGA/DV/rtl/test.v line 55

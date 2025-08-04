@@ -39,8 +39,8 @@
     PCLK <= 0;
     forever #5 PCLK = ~PCLK;
    end
-
-   initial $readmemh("check.mem",mem); 
+parameter MEM = "C:/intelFPGA/DV/sim/check.mem";
+   initial $readmemh(MEM, mem); 
     initial
     begin
                                     PRESETn<=0; transfer<=0; READ_WRITE =0;

@@ -18,9 +18,5 @@
 # 
 # log -r /* 
 #  run -all 
-# ** Warning: (vsim-7) Failed to open readmem file "check.mem" in read mode.
-# 
-# No such file or directory. (errno = ENOENT)    : ../tb/test.v(43)
-#    Time: 0 ns  Iteration: 0  Instance: /test
 # ** Note: $finish    : ../tb/test.v(64)
 #    Time: 1045 ns  Iteration: 1  Instance: /test

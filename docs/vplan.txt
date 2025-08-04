@@ -1,0 +1,5 @@
+1. Xác định phạm vi, phương pháp kiểm thử
+- Phạm vi kiểm thử: VIP
+- Phương pháp kiểm thử: cả direct test và random test
+
+

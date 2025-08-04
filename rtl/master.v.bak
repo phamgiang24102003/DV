@@ -6,8 +6,6 @@
 //
 ///////////////////////////////////////////////
 
-
-
 `timescale 1ns/1ns
 
   module master(
@@ -199,17 +197,17 @@
 	  else setup_error = 0;
           end
           begin
-          if((apb_write_data===8'dx) && (!READ_WRITE) && (state==SETUP || state==ENABLE))
+          if((apb_write_data==8'dx) && (!READ_WRITE) && (state==SETUP || state==ENABLE))
 		  invalid_write_data =1;
 	  else invalid_write_data = 0;
           end
           begin
-	  if((apb_read_paddr===9'dx) && READ_WRITE && (state==SETUP || state==ENABLE))
+	  if((apb_read_paddr==9'dx) && READ_WRITE && (state==SETUP || state==ENABLE))
 		  invalid_read_paddr = 1;
 	  else  invalid_read_paddr = 0;
           end
           begin
-          if((apb_write_paddr===9'dx) && (!READ_WRITE) && (state==SETUP || state==ENABLE))
+          if((apb_write_paddr==9'dx) && (!READ_WRITE) && (state==SETUP || state==ENABLE))
 		  invalid_write_paddr =1;
           else invalid_write_paddr =0;
           end
